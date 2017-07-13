@@ -10,7 +10,7 @@ export class AppComponent {
   autor = 'Jhon Alejandro Medina Hincapie';
   count = 0;
 
-  imageSource = './../favicon.ico';
+  imageSource = 'favicon.ico';
 
   disable = true;
 
