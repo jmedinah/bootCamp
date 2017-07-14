@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'my new application';
+  autor = 'Jhon Alejandro Medina Hincapie';
+  count = 0;
+
+  imageSource = 'favicon.ico';
+
+  disable = true;
+
 }

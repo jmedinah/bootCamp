@@ -8,6 +8,7 @@ import { CapitalizePipe } from './capitalize.pipe';
 import { RemoveVersionPipe } from './remove-version.pipe';
 import { ZoomInDirective } from './zoom-in.directive';
 
+
 @NgModule({
   declarations: [
     AppComponent,
