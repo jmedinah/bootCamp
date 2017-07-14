@@ -1,0 +1,27 @@
+<p>
+  alejandro works!
+</p>
+
+
+<select ng-model="myVar">
+  <option value="A" >A
+  <option value="B" >B
+  <option value="C" >C
+</select>
+<div [ngSwitch]="myVar">
+  <div *ngSwitchCase="'A'"> Var is A</div>
+  <div *ngSwitchCase="'B'"> Var is B</div>
+  <div *ngSwitchCase="'C'"> Var is C</div>
+  <div *ngSwitchDefault>Var is something</div>
+</div>
+
+<div *ngFor="let item of list">
+
+  <div appRemoveItem>
+    {{item | capitalize}}
+  </div>
+</div>
+<ul *ngFor="let dependency of depenciesList">
+  <li appZoomIn>{{dependency | removeVersion }}</li>
+
+</ul>
